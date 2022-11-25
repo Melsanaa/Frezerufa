@@ -1,0 +1,216 @@
+@media (max-width: 1200px) {
+	.header {
+		padding: 5px 0 30px;
+	}
+	.nav {
+		display: block;
+	}
+
+	.logo {
+		display: block;
+		text-align: center;
+	}
+
+	.header__nav {
+		display: none;
+	}
+
+	.main__inner {
+		flex-wrap: wrap;
+	}
+
+	.main__text {
+		max-width: 100%;
+		flex-basis: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.main__title {
+		max-width: 100%;
+		margin-left: 0;
+	}
+
+	.main__item {
+   font-size: 30px;
+	margin-left: 0;
+	}
+
+	.main__slider {
+		order: 2;
+		max-width: 100%;
+		flex-basis: 100%;
+	}
+
+	.main__slider img {
+		margin: 0 auto;
+	}
+
+	.info {
+		padding: 10px 0 30px;
+	}
+}
+
+@media (max-width: 984px) {
+	.info__inner {
+		flex-wrap: wrap;
+	}
+
+	.info__text {
+		max-width: 100%;
+		text-align: center;
+	}
+
+	.info__img {
+		margin: 0 auto;
+	}
+
+	.info__text-text {
+		text-align: center;
+	}
+
+	.info__img {
+		object-fit: contain;
+	}
+
+	.contacts__inner {
+		flex-wrap: wrap;
+	}
+
+	.contacts__text {
+		flex-basis: 100%;
+		max-width: 100%;
+	}
+
+	.form {
+		flex-basis: 100%;
+		max-width: 100%;
+	}
+
+	.form__text {
+		text-align: center;
+	}
+
+	.form__input-name,
+   .form__input-phone,
+   .form__input-mail {
+	display: block;
+   }
+
+	.footer__inner {
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 730px) {
+	.footer__inner {
+		display: block;
+	}
+}
+
+@media (max-width: 600px) {
+	.catalog__text {
+		font-size: 18px;
+	}
+
+	.catalog__text-text {
+		font-size: 24px;
+	}
+
+	.catalog__slider {
+		display: none;
+	}
+
+	.catalog__img {
+		display: block;
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 506px) {
+	.main__slider {
+		display: none;
+	}
+
+	.main__img-img {
+		display: block;
+		margin: 0 auto;
+		order: 2;
+	}
+
+	.main__title {
+		font-size: 56px;
+	}
+
+	.main__item {
+		font-size: 24px;
+	}
+
+	.form__link {
+		font-size: 16px;
+		letter-spacing: 0.8em;
+		padding: 18px 34px;
+	}
+
+	.header {
+		padding: 0 0 10px;
+	}
+
+	.main {
+		padding: 0 0 10px;
+	}
+
+	.info {
+		padding: 0 0 10px;
+	}
+
+	.catalog {
+		padding: 0 0 10px;
+	}
+
+	.contacts {
+		padding: 0 0 10px;
+	}
+
+	.footer {
+		padding: 5px 0 10px;
+	}
+
+	.main__items {
+		margin-top: 10px;
+	}
+
+	.info__title,
+	.catalog__title,
+	.contacts__title {
+		margin: 0 0 10px;
+	}
+}
+
+@media (max-width: 490px) {
+	.catalog__text {
+		font-size: 18px;
+	}
+
+	.footer__tel {
+		font-size: 24px;
+	}
+
+	.footer__link {
+   	font-size: 24px;
+		gap: 20px;
+	}
+}
+
+@media (max-width: 350px) {
+	.contacts__text {
+		text-align: left;
+	}
+
+	.adres,
+   .phone,
+   .mail {
+	font-size: 24px;
+}
+}
